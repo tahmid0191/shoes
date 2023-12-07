@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+ 
+}
+
+
+/*-- nav start --*/
+.navbar-brand {
+    color: #c72092;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Francois One', sans-serif;
+}
+.navbar-brand:hover{
+    color: #c72092;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-item{
+    padding-left: 10px;
+}
+.nav-item .nav-link:hover{
+    color: #c72092;
+}
+
+.nav-like{
+    color: orange;
+    margin-right: 30px;
+    text-align: center;
+}
+.nav-like a{
+    color: orange;
+}
+.nav-like a:hover{
+    color: #c72092;
+}
+.nav-like i{
+    padding: 5px;
+}
+.nav-like i:hover{
+    color: #c72092;
+}
+/*-- nav end --*/
+
+
+/*-- home start --*/
+.home {
+    width: 100%;
+    height: 100%;
+    background-image:url(Photo/bg1.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+.home .row{
+    justify-content: center;
+    align-items: center;
+}
+.home-head h1{
+    font-size: 90px;
+    line-height: 70px;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Kalam', cursive;
+}
+.home-head h1 span{
+    font-size: 70px;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Francois One', sans-serif;
+    
+}
+.home-head p{
+    text-align: justify;
+    position: relative;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+ 
+}
+.home-head button{
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    border-radius: 5px; 
+    margin-left: 50px;
+    margin-top: 50px;
+ 
+}
+.home-img img{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    
+}
+/*-- home end --*/
+
+
+
+/*-- product start --*/
+.product-head{
+    padding-top: 70px;
+}
+.product-head h1{
+    text-align: center;
+    font-size: 45px;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Francois One', sans-serif;
+}
+.product .col-md-3{
+    margin-top: 30px;
+
+}
+
+.product .card{
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px #c72092;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+.product .card p{
+    color: gray;
+}
+.product .card h6{
+    font-weight: bold;
+}
+.product .card .product-like{
+    color: orange;
+    margin-bottom: 5px;
+}
+.product .card .btn{
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    color: antiquewhite;
+}
+.product .card img{
+    margin-top: 10px;
+    width: 150px;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.product .card img:hover{
+    transform: scale(1.2);
+}
+/*-- product end --*/
+
+
+/*-- about start --*/
+.about-name{
+    padding-top: 70px;
+}
+.about .row{
+    margin-top: 50px;
+}
+.about-name h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Francois One', sans-serif;
+}
+.about .about-name h1 span{
+    text-align: center;
+    font-size: 45px;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.about .col-md-2{
+    margin-top: 15px;
+    text-align: center;
+}
+.about .col-md-2 .about-small-img{
+    position: relative;
+}
+.about .col-md-2 .about-small-img img{
+    width: 110px;
+    height: 92px;
+    margin: 5px 0 ;
+    cursor: pointer;
+    background: linear-gradient(to right, #6c14d0, #c72092);
+    border-radius: 6px;
+    box-shadow: 0 0 8px black;
+    opacity: 0.8;
+    transition: 0.3s; 
+}
+.about .col-md-2 .about-small-img img:hover{
+    opacity:1 ;
+}
+.about .col-md-5{
+    margin-top: 15px;
+}
+.about .col-md-5 .about-img img{
+    border: 3px solid #6c14d0;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 0 0 8px #6c14d0;
+    width: 100%;
+} 
+.about .col-md-5 .about-p{
+    border: 3px solid #6c14d0;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0 0 8px #6c14d0;
+    width: auto;
+}
+.about .col-md-5 .about-p p {
+    padding: 20px;
+}
+
+
+/*-- review start --*/
+.review-head{
+    padding-top: 70px;
+}
+.review-head h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Francois One', sans-serif;
+}
+.review-head h1 span{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.review .row{
+    margin-top: 50px;
+}
+.review-details{
+   box-shadow: 0 0 5px black;
+    margin: 10px;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+ 
+.review-details .review-profile{
+    display: flex;
+    align-items: center;
+}
+.review-details .review-profile .profile-img{
+width: 60px;
+width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px 0;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.review-details .review-profile .profile-img:hover{
+    transform: scale(1.2);
+}
+.review-details .review-profile .profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.review-details .review-profile .profile-name {
+    margin-left: 20px;
+    line-height: 20px;
+}
+.review-details .review-profile .profile-name strong{
+    font-size: 20px;
+}
+.review-details .review-profile .profile-name .like{
+    color: orange;
+}
+.review-details .review-profile .commant p{
+    text-align: justify;
+    line-height: 22px;
+    margin-top: 20px;
+    
+}
+/*-- review end --*/
+
+
+/*-- services start --*/
+.service-head{
+    padding-top: 70px;
+}
+.service-head h1{    
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Francois One', sans-serif;
+}
+.service-head h1 span{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.service-item{
+    text-align: center
+}
+.service-item h1{
+    color: orange;
+    font-size: 60px;
+}
+.service-item h5{
+    margin-top: 5px;
+}
+.service-item p{
+    color: gray;
+    margin-bottom: 60px;
+}
+.row{
+    margin-top: 50px;
+}
+.service-item{
+    margin-top: 10px;
+}
+/*-- services end --*/
+
+
+/*-- login start --*/
+.login{
+    height: 100%;
+    background-image:url(Photo/loging_bg.png    );
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.login .row{
+    align-items: center;
+    justify-content: center;
+}
+.login-img img{
+    position: relative;
+    width: 80%;
+    height: 550px;
+}
+.login-all{
+    position: relative;
+    margin-left: 20%;
+}
+.login-name{
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    background: linear-gradient(to right, #c72092 ,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.login-form label{
+    margin-bottom: 5px;
+}
+.login-form .user{
+    border: 2px solid #6c14d0;
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    display: flex;
+}
+.login-form .user h6{
+    position: relative;
+    top: 9%;
+    color: #c72092;
+    padding: 3px;
+}
+.login-form .user input{
+    position: relative;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    font-size: 15px;
+    
+}
+.login-form label{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.login-form .password{
+    border: 2px solid #6c14d0;
+    border-radius: 5px; 
+    width: 350px;
+    height: 35px;
+    display: flex;
+}
+.login-form .password h6{
+    position: relative;
+    top: 9%;
+    color: #c72092;
+    padding: 3px;
+}
+.login-form .password input{
+    position: relative;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    font-size: 15px;
+   
+}
+.forget{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.login input {
+    width: 350px;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    border-radius: 5px; 
+    border: 2px solid #c72092,#6c14d0;
+}
+.login-form button {
+    margin-top: 50px;
+    width: 350px;
+    color: black;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 5px; 
+    background-color: darkorange;
+    border: 2px solid #c72092,#6c14d0;
+    font-weight: bold;
+}
+.login-form button:hover{
+    background: linear-gradient(to right, #c72092,#6c14d0);
+
+}
+/*-- login end --*/
+
+
+.me p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+
+
+/*-- Create Account start --*/
+    .createaccount{
+        padding-top: 100px;
+        background-color: whitesmoke;
+        background: url(Photo/loging_bg.png);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    }
+/*-- Create Account end --*/
+
+
+
+
+  
